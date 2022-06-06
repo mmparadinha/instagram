@@ -98,10 +98,11 @@ span {
     border-radius: 3px;
     border: 1px solid #DBDBDB;
     margin: 0 29px 24px 0;
-    padding: 18px 0px 14px 18px;
+    padding: 18px 0 14px 18px;
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 .caixa-stories ion-icon {
@@ -116,15 +117,11 @@ span {
 .stories {
     width: 78px;
     height: 86px;
-    margin-right: 2px;
+    margin-right: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: red;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .stories-pagina {
